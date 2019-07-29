@@ -1,13 +1,12 @@
 import React, { Component } from "react"
-import Navbar from "../components/Navbar"
+import Layout from "../components/layout"
 
 export default class blog extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-        <div>Blog</div>
-      </div>
+      <Layout>
+        <h1 className="col-4">Blog</h1>
+      </Layout>
     )
   }
 }

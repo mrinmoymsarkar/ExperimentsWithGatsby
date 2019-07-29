@@ -3,6 +3,6 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <div>Helewrewlo world!</div>
+    <h1 className="btn-blue">Helewrewlo world!</h1>
   </Layout>
 )
