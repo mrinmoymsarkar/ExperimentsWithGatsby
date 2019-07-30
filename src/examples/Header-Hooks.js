@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div>
-      <h1>author{info.author}</h1>
+      <h1>author:{info.author}</h1>
       <h1>Title</h1>
     </div>
   )
